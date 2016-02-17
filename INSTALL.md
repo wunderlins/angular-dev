@@ -52,3 +52,5 @@ Finally add some git ignore rules and commit the project to git.
    git add `git ls-files --others --exclude-standard`
    git commit -am "Added empty project"
    git push
+
+
