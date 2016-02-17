@@ -42,6 +42,6 @@ The project should open in chrome, if not point chrome to http://localhost:9000
 
 Finally add some git ignore rules and commit the project to git.
    echo '*~' >> .gitignore
-   git add * .*
+   git add `git ls-files --others --exclude-standard`
    git commit -am "Added empty project"
    git push
