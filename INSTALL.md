@@ -34,3 +34,14 @@ Let's say no to Gulp, Compass and yes to Bootstrap. Then, when prompted about wh
 Say 'a' to "Overwrite package.json".
 
 Now go get you a coffee, this will take a couple of minutes.
+
+Finally a test if the empty project works:
+   grump serve
+
+The project should open in chrome, if not point chrome to http://localhost:9000
+
+Finally add some git ignore rules and commit the project to git.
+   echo '*~' >> .gitignore
+   git add * .*
+   git commit -am "Added empty project"
+   git push
