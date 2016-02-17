@@ -42,15 +42,15 @@ Now go get you a coffee, this will take a couple of minutes.
 
 Finally a test if the empty project works:
 
-   grump serve
+    grump serve
 
 The project should open in chrome, if not point chrome to http://localhost:9000
 
 Finally add some git ignore rules and commit the project to git.
 
-   echo '*~' >> .gitignore
-   git add `git ls-files --others --exclude-standard`
-   git commit -am "Added empty project"
-   git push
+    echo '*~' >> .gitignore
+    git add `git ls-files --others --exclude-standard`
+    git commit -am "Added empty project"
+    git push
 
 
